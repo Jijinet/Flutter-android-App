@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         "/counter":(context)=>CounterPage(),
         "/users":(context)=>UsersPage(),
         "/gallery":(context)=>Gallery(),
-        "/whether":(context)=>WeatherForm()
+        "/meteo":(context)=>WeatherForm()
       },
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
