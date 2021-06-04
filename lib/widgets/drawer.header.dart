@@ -17,7 +17,7 @@ class MyDrawerHeader extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 40,
-              backgroundImage:AssetImage("images/logo.png"),
+              backgroundImage:AssetImage("images/logo.jpg"),
               backgroundColor: Colors.transparent,
             ),
           ],

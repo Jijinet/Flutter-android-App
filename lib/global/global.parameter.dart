@@ -18,8 +18,8 @@ class GlobalParameters{
       "icon":Icon(Icons.contacts)
     },
     {
-      "title":"Meteo",
-      "route":"/meteo",
+      "title":"Whether",
+      "route":"/whether",
       "icon":Icon(Icons.wb_sunny)
     },
     {

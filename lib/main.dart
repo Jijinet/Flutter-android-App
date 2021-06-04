@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/counter.page.dart';
+import 'package:flutter_app/pages/gallery.page.dart';
 import 'package:flutter_app/pages/home.page.dart';
+import 'package:flutter_app/pages/meteo.page.dart';
 import 'package:flutter_app/pages/users.page.dart';
 
 void main(){
@@ -15,7 +17,9 @@ class MyApp extends StatelessWidget {
       routes: {
         "/":(context)=>HomePage(),
         "/counter":(context)=>CounterPage(),
-        "/users":(context)=>UsersPage()
+        "/users":(context)=>UsersPage(),
+        "/gallery":(context)=>Gallery(),
+        "/whether":(context)=>WeatherForm()
       },
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
